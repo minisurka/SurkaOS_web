@@ -830,7 +830,7 @@
                 </svg>
               </div>
               <div class="left-text" id="lock_name_style" style="left: 60px">
-                Lock style
+                Экран блокировки
               </div>
               <div
                 class="left-text-small"
@@ -850,11 +850,11 @@
                 class="aboutI4Item"
                 onclick='
                 showPopupInput({
-                  message: "Введи название телефона",
+                  message: "Введите название телефона",
                   placeholder: document.getElementById("phoneName").textContent.trim(),
                   defaultText: document.getElementById("phoneName").textContent.trim(),
                   maxLength: 30,
-                  buttonText: "Rename",
+                  buttonText: "Переменовать",
                   onSubmit: (resultText) => {
                     document.getElementById("phoneName").textContent = resultText;
                     localStorage.setItem("phoneName", resultText);
@@ -2868,7 +2868,7 @@
                   id="borderRadiusSystemBtn"
                   style="top: calc(35% + 180px)"
                 >
-                  <div class="setting-title">Система пограничного радиуса</div>
+                  <div class="setting-title">Радиус загругления</div>
                   <div class="toggle-switch" style="opacity: 0"></div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -3217,7 +3217,7 @@
 
                 <div class="app4app" id="app4BorderRadiusSystem">
                   <div class="back-button" id="back_BorderRadiusSystem">
-                    Система погран радиуса
+                    Радиус загругления
                   </div>
                   <div
                     class="setting-item"
@@ -3228,7 +3228,7 @@
                     "
                   >
                     <div class="setting-title" style="margin-bottom: 8px">
-                      Система погран радиуса
+                      Радиус загругления
                     </div>
                     <input
                       type="range"
@@ -3408,7 +3408,7 @@
               <div id="all_box_pass">
                 <div class="box_pass" id="box_pass1">
                   <div class="setting-title" style="margin: 15px">Пароль</div>
-                  <div class="left-text-small2" id="status_pass1">НА</div>
+                  <div class="left-text-small2" id="status_pass1">ХЗ</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 -960 960 960"
@@ -3424,9 +3424,9 @@
                     class="setting-title"
                     style="margin: 13px; margin-top: 16px; font-size: 15px"
                   >
-                    Отпечаток пальца
+                    Отпечаток пал.
                   </div>
-                  <div class="left-text-small2" id="status_pass2">НА</div>
+                  <div class="left-text-small2" id="status_pass2">ХЗ</div>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 -960 960 960"
@@ -3445,7 +3445,7 @@
                 style="top: 230px"
               >
                 <div class="setting-title" id="fast_finger_title">
-                  Быстрый отпечаток пальца
+                  Быстр отпечаток пальца
                 </div>
                 <div
                   class="toggle-switch"
@@ -3464,7 +3464,7 @@
                   id="transparent_password_title"
                   style="text-align: left"
                 >
-                  Прозрачная кнопка пароля
+                  Прозрачная кнопка
                 </div>
                 <div
                   class="toggle-switch"
@@ -3661,7 +3661,7 @@
                     filter: invert(0.3);
                   "
                 ></div>
-                номеронабиратель
+                Номер
               </div>
               <div class="navitem_phone" id="Contacts">
                 <div
@@ -3697,13 +3697,13 @@
               </div>
 
               <!-- Nút cam ở giữa -->
-              <button class="btn-main_clock" id="mainBtn_clock">Запустить</button>
+              <button class="btn-main_clock" id="mainBtn_clock">Запуск</button>
 
               <!-- Hai nút sau khi nhân đôi -->
               <button class="btn-start_clock" id="startStopBtn_clock">
                 Стоп
               </button>
-              <button class="btn-reset_clock" id="resetBtn_clock">Перезагрузить</button>
+              <button class="btn-reset_clock" id="resetBtn_clock">Заново</button>
             </div>
           </div>
         </div>
